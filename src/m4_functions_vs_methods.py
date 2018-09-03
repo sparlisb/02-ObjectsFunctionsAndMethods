@@ -5,7 +5,8 @@ Demonstrates using (calling) FUNCTIONS and using (calling) METHODS:
 
 Authors: David Mutchler, Dave Fisher, Vibha Alangar, Amanda Stouder,
          their colleagues and Vibha Alangar.
-"""  # TODO: 1. PUT YOUR NAME IN THE ABOVE LINE.
+         Shamus Sparling
+"""  # done: 1. PUT YOUR NAME IN THE ABOVE LINE.
 
 ###############################################################################
 #
@@ -101,7 +102,7 @@ def draw_many_squares(my_turtle, number_of_squares, size, twist):
 
 ###############################################################################
 #
-# TODO: 3.
+# done: 3.
 #   There are four FUNCTIONS defined ABOVE this:
 #     main
 #     run_example
@@ -128,6 +129,12 @@ def draw_many_squares(my_turtle, number_of_squares, size, twist):
 ###############################################################################
 
 def try_methods():
+    turtle = rg.SimpleTurtle()
+    turtle.pen = rg.Pen('brown', 5)
+    turtle.forward(150)
+    turtle.left(90)
+    turtle.forward(50)
+    turtle.backward(100)
     """
     Constructs a SimpleTurtle and sets its   pen   to a new rg.Pen
     that is 'brown' with thickness 5.
