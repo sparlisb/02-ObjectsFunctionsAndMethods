@@ -190,7 +190,12 @@ def try_methods_and_functions():
     draw_many_squares(turtle1, 8, 300, 60)
 
     turtle1.pen = rg.Pen('black', 3)
-    
+
+    turtle1.backward(200)
+
+    turtle1.draw_circle(30)
+
+    turtle1.draw_square(50)
     # IMPORTANT: Read the NOTE below before you try to solve this TO-DO!
     """
     Constructs a SimpleTurtle and sets its   pen  to a new rg.Pen
